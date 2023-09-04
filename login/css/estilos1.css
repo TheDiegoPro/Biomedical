@@ -1,0 +1,170 @@
+
+:root {
+    --dark: #c6d1dd;
+    --dark-x: #1E2126; 
+    --light: #ffffff;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--dark-x);
+}
+
+.text-light { color: var(--dark-x) !important; }
+.bg-dark { background-color: var(--dark) !important; }
+.bg-dark-x { background-color: var(--dark-x); }
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.form-control:focus {
+    background-color: var(--dark);
+    outline: none;
+}
+
+.img-1 {
+    background-image: url(../img/medicinas.jpg);
+    background-size:cover ;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url(../img/camion.jpg);
+    background-size:cover ;
+    background-position: center;
+}
+
+.img-3 {
+    background-image: url(../img/personal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#registroform1{
+    
+    text-align: center;
+    background-color:#fff;
+    max-width: 750px;
+    margin: 70px auto 0;
+    padding: 40px;
+    color: #1E2126;
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.2);
+}
+
+#registroform{
+    background-color:#fff;
+    max-width: 750px;
+    margin: 30px auto 0;
+    padding: 25px;
+    color: #1E2126;
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.2);
+}
+
+#registroform h2{
+    padding-bottom: 20px;
+    margin: 10px 20px;
+    font-size: 24px;
+}
+
+#registroform hr{
+    margin-top: 38px;
+    margin-bottom: 54px;
+    margin-left:3px;
+    border: 1px solid #cccccc;
+
+}
+
+.input-group-text{
+
+    height: 100%;
+}
+
+#lapa{
+    margin-left: 80px;
+}
+
+#direccion{
+    width: 670px;
+}
+
+#registroform .form-group{
+	margin-bottom: 20px;
+    margin-left:20px;
+    width: 30%;
+
+    float:left;
+    text-align: left;
+}
+
+#registroform .form-control{
+    padding: 12px 20px;
+    height: auto;
+    border-radius: 2px;
+}
+
+#registroform .radio-inline{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#registroform .gender{
+    width: 30%;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#registroform .btn{
+    width: 46%;
+    margin: 20px auto 0;
+    display: block;
+    outline: none;
+}
+
+@media screen and (max-width: 800px){
+    #registroform .form-group{
+        width: 45%;
+    }
+
+    #registroform{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 560px){
+    #registroform .form-group{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #registroform h2{
+        text-align: center;
+    }
+}
+
+#lr{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 30px;
+}
+
+#email1{
+    width:300px;
+    position: relative;
+    left:27.5%;
+}
+
+#volver{
+    position: absolute;
+    top:60px;
+   right:330px;
+    width:90px;
+}
